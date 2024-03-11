@@ -23,7 +23,6 @@ export const TestComponent = (props: TestType) => {
 						<li key={index}>
 							<ul>
 								<li>Name - {ObjectStudent.name}</li>
-								<li>test</li>
 								<li>Age - {ObjectStudent.age}</li>
 							</ul>
 							<br />
