@@ -1,7 +1,7 @@
 type BodyPropsType = {
-	titleForBody: string
-}
+  titleForBody: string;
+};
 
 export const Body = (props: BodyPropsType) => {
-	return <div>{props.titleForBody}</div>
-}
+  return <div>{props.titleForBody}</div>;
+};
